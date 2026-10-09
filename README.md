@@ -11,3 +11,7 @@
 [安装说明](INSTALLATION.md) · [来源与许可](THIRD_PARTY_NOTICES.md)
 
 独立组件与工具采用 GPL-3.0-only；`HeldItemMixin.java` 保留 Fuzs 的 MPL-2.0 许可和署名。原工程参考 Fyu、spiderfrog、BigBFace、OrangeMarshall、prplz，未授权的旧代码和贴图不在仓库中。整理时未重新编译或进游戏测试。
+
+## 贡献者
+
+Demon-wxj · GPT（OpenAI）。分工见 [CONTRIBUTORS.md](CONTRIBUTORS.md)。
