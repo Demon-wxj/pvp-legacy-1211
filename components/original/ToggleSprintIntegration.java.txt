@@ -1,0 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-only
+// Exact integration excerpts from the newly written Toggle Sprint feature. Not a standalone class.
+toggle=KeyBindingHelper.registerKeyBinding(new KeyBinding("key.legacy_pvp_assist.sprint",InputUtil.Type.KEYSYM,GLFW.GLFW_KEY_RIGHT_CONTROL,"category.legacy_pvp_assist"));
+while(toggle.wasPressed()) if(playing()) {config.toggleSprint=!config.toggleSprint;config.save();c.player.sendMessage(Text.literal("自动疾跑："+(config.toggleSprint?"已开启":"已关闭")),true);}
+d.register(literal("togglesprint").executes(ctx->{config.toggleSprint=!config.toggleSprint;config.save();ctx.getSource().sendFeedback(Text.literal("自动疾跑："+(config.toggleSprint?"已开启":"已关闭")));return 1;}));
